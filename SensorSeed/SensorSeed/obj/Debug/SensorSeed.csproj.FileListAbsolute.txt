@@ -1,0 +1,6 @@
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorSeed\bin\SensorSeed.dll.config
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorSeed\bin\SensorSeed.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorSeed\bin\SensorSeed.pdb
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorSeed\obj\Debug\SensorSeed.csprojResolveAssemblyReference.cache
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorSeed\obj\Debug\SensorSeed.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorSeed\obj\Debug\SensorSeed.pdb

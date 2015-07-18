@@ -1,0 +1,6 @@
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\SensorDataRetrievalService.exe.config
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\SensorDataRetrievalService.exe
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\SensorDataRetrievalService.pdb
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Debug\SensorDataRetrievalService.csprojResolveAssemblyReference.cache
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Debug\SensorDataRetrievalService.exe
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Debug\SensorDataRetrievalService.pdb
