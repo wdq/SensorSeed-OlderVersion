@@ -4,3 +4,12 @@ C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrieva
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Debug\SensorDataRetrievalService.csprojResolveAssemblyReference.cache
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Debug\SensorDataRetrievalService.exe
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Debug\SensorDataRetrievalService.pdb
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\Common.Logging.Core.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\Common.Logging.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\Quartz.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\Common.Logging.pdb
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\Common.Logging.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\Common.Logging.Core.pdb
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\Common.Logging.Core.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\Quartz.pdb
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Debug\Quartz.xml
