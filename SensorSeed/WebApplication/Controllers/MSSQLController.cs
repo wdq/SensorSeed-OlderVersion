@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using System.Data.SqlClient;
+using System.Linq;
+using System.Data.Sql;
 
 namespace WebApplication.Controllers
 {
@@ -13,6 +13,10 @@ namespace WebApplication.Controllers
         // GET api/mssql
         public IEnumerable<string> Get()
         {
+            //var database = new SensorDataLinqToSQLDataContext();
+            //var stuff = database.Sensors.AsEnumerable();
+            
+
             return new string[] { "value1", "value2" };
         }
 

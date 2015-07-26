@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SensorDataLinqToSQL">
+  <DataContextMoniker Name="/SensorDataLinqToSQLDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5ded85d5-f893-40c7-88a3-4333a4bcd22a" absoluteBounds="0.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SensorDataLinqToSQLDataContext/HumidityData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5003d360-0a27-44ca-a074-33c5fd66dfb2" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="376b0373-9b2e-4c21-81d0-d65b0f549901" absoluteBounds="3.75, 0.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/SensorDataLinqToSQLDataContext/Sensor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a586e06-4d48-49a1-afae-263459b702bb" absoluteBounds="3.765, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2a51422c-43a3-4a61-ae96-df7b59c7e76c" absoluteBounds="0.75, 4.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SensorDataLinqToSQLDataContext/TemperatureData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f6b8b78a-72d6-4994-a86b-0c532cda6654" absoluteBounds="0.765, 5.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="sensorseed.com" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\wquade\\Documents\\Projects\\Home\\sensorseed\\SensorSeed\\WebApplication\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\wquade\\Documents\\Projects\\Home\\sensorseed\\SensorSeed\\WebApplication\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\aspnet-WebApplication-20150718173033.mdf;Initial Catalog=aspnet-WebApplication-20150718173033;Integrated Security=True;User Instance=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\wquade\\Documents\\Projects\\Home\\sensorseed\\SensorSeed\\WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

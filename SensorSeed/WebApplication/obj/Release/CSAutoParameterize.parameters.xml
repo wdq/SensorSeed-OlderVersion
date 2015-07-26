@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\aspnet-WebApplication-20150718173033.mdf;Initial Catalog=aspnet-WebApplication-20150718173033;Integrated Security=True;User Instance=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\wquade\\Documents\\Projects\\Home\\sensorseed\\SensorSeed\\WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
