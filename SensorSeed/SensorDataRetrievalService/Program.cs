@@ -10,7 +10,6 @@ using Quartz;
 using Quartz.Impl;
 using System.Data.Sql;
 using System.IO;
-using WebApplication;
 using System.Net;
 
 namespace SensorDataRetrievalService

@@ -2,7 +2,10 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>c:\users\wquade\documents\projects\home\sensorseed\sensorseed\sensordataretrievalservice\program.cs</string>
+      <string>C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\Program.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\App.config</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

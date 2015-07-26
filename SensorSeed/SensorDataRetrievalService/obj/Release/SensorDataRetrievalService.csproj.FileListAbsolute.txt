@@ -13,3 +13,9 @@ C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrieva
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Release\SensorDataRetrievalService.csprojResolveAssemblyReference.cache
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Release\SensorDataRetrievalService.exe
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Release\SensorDataRetrievalService.pdb
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\SensorDataRetrievalService.exe.manifest
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\SensorDataRetrievalService.application
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\SkyLinq.Linq.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\System.Linq.Dynamic.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Release\SensorDataRetrievalService.exe.manifest
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Release\SensorDataRetrievalService.application

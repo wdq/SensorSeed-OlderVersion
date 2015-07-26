@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SensorDataRetrievalService.exe" version="1.0.0.3" publicKeyToken="01ac82a50e253481" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SensorDataRetrievalService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SensorDataRetrievalService.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Common.Logging.dll" size="44544">
+      <assemblyIdentity name="Common.Logging" version="3.0.0.0" publicKeyToken="AF08829B84F0328E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kXp3Bl3pRmH2mX2NMB2zATADNnC31dnACiEpBPOToA8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Common.Logging.Core.dll" size="9728">
+      <assemblyIdentity name="Common.Logging.Core" version="3.0.0.0" publicKeyToken="AF08829B84F0328E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0vNAWOnCJelBZACHNSJ9WpeyAFB9p5u1ik5g47CYcHs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Quartz.dll" size="889344">
+      <assemblyIdentity name="Quartz" version="2.3.3.0" publicKeyToken="F6B8C98A402CC8A4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WT6t+8H0iTzp6gnIRF9CEMr2fxHmhERHKMwVMmWdyBI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SensorDataRetrievalService.exe" size="20904">
+      <assemblyIdentity name="SensorDataRetrievalService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8AukOX2LTbkZQkzmUnXmELoBm4s2+lenoz5TXtSbk58=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SkyLinq.Linq.dll" size="32256">
+      <assemblyIdentity name="SkyLinq.Linq" version="0.3.5391.25999" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sFYk0GqXu61hAyWBpAPSbXgfHPYO7nplJzSdiqNyr8c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Linq.Dynamic.dll" size="49152">
+      <assemblyIdentity name="System.Linq.Dynamic" version="1.0.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KtyKhcQWwYaAGJ9qbXjqqTV3y2JpZamqgM4CcFnuHeY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SensorDataRetrievalService.exe.config" size="531">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wPuOT53h8716Q0LA/HRjJRBJweywC3S3sSzwqtBv07E=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=QUADE\wquade" issuerKeyHash="811d1dc16b9d7bf8a0206e8f5164410889caaa74" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Lpn+dwy+i1NupeowvdwUZCkSBtYA+gvI5CaM95gMxDk=</DigestValue></Reference></SignedInfo><SignatureValue>WJNSfw87oGqzU8qgK870jc3+VBIg1ViZCz+YeAOPygKR3/hk0IqOEHfBfCTdizSrYRb8xKdCIuss9osSHhTfd7A3jiRrLzUXinK5PlCTu/NX5lvvJpoxYuQeoC1u7GsfpR0wCNJ35cLlmoKfatnexyFe4mYL60VFT+ju3mIfMtc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uQTRHfkmol90NVeroZuN+Lv7PIQyXWeIJxd3qyUleCwHz4T4TKVAtH0VW+1MU2YTusEls6Tm9+5hVnuQjNXCTuvtpl5aXthghvfL8VYWefJmLLssbI6MIhZpgKis963r5iMUeOMGIHyJ8Y4yeFX83810abR7YWN7kyQOi0BhcyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="39c40c98f78c26e4c80bfa00d60612296414dcbd30eaa56e538bbe0c77fe992e" Description="" Url=""><as:assemblyIdentity name="SensorDataRetrievalService.exe" version="1.0.0.3" publicKeyToken="01ac82a50e253481" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=QUADE\wquade</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DXIAfsL+pokYJDgDqQpnkXofAOUZD0GFuZiSRUKLZ04=</DigestValue></Reference></SignedInfo><SignatureValue>CeJxxZWM4026/ztMy8h1IsV2kOwvEzNMUWRF5sM1A6kmqMkRgVAvzMrqnmykSVi1dWp+eP1TVJZpmwTnVt7vCKhFJgcho8mLo4ECwmaBBdSbz0wFKrn9DYlrsWHD1BbrJKwKe8xKRJBPkP5bwI+fF607sJzlaBMqeEVHfWd9ltI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uQTRHfkmol90NVeroZuN+Lv7PIQyXWeIJxd3qyUleCwHz4T4TKVAtH0VW+1MU2YTusEls6Tm9+5hVnuQjNXCTuvtpl5aXthghvfL8VYWefJmLLssbI6MIhZpgKis963r5iMUeOMGIHyJ8Y4yeFX83810abR7YWN7kyQOi0BhcyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQJXiH54uDeLhD/wFPtkNA8DANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAUQBVAEEARABFAFwAdwBxAHUAYQBkAGUwHhcNMTUwNzI2MDEyOTA0WhcNMTYwNzI1MDcyOTA0WjAjMSEwHwYDVQQDHhgAUQBVAEEARABFAFwAdwBxAHUAYQBkAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALkE0R35JqJfdDVXq6Gbjfi7+zyEMl1niCcXd6slJXgsB8+E+EylQLR9FVvtTFNmE7rBJbOk5vfuYVZ7kIzVwk7r7aZeWl7YYIb3y/FWFnnyZiy7LGyOjCIWaYCorPet6+YjFHjjBiB8ifGOMnhV/N/NdGm0e2Fje5MkDotAYXMhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAiud1cP48ADdVzUcNJYIKd3+ulzlJZoNVncTJxhvxF8dqdCrDJ97UZH0D+/qkd1O6OwDWef5ysFmmxYUYY0NsrN9rkEjTahJWK/W7+bGHPpnGaFRHEbDtvwMIZfAl9koOFSyCBayMRK+t0/kRt5JFVhhqRlZWh8UlQjFtKBNf6n0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
