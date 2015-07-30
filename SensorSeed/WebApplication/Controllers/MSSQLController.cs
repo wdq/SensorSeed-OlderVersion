@@ -5,42 +5,87 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Linq;
 using System.Data.Sql;
+using System.Web.Mvc;
+using System.Web.UI.WebControls;
+using MongoDB.Bson;
+using Newtonsoft.Json;
 
 namespace WebApplication.Controllers
 {
-    public class MSSQLController : ApiController
+    public class MSSQLController : Controller
     {
-        // GET api/mssql
-        public IEnumerable<string> Get()
-        {
-            //var database = new SensorDataLinqToSQLDataContext();
-            //var stuff = database.Sensors.AsEnumerable();
-            
 
-            return new string[] { "value1", "value2" };
+        public ActionResult GetSensor(string query, string queryType)
+        {
+            var database = new SensorDataLinqToSQLDataContext();
+
+            if (queryType == "Name")
+            {
+                Sensor sensor = database.Sensors.AsQueryable().FirstOrDefault(x => x.Name == query);
+
+                return Content(sensor.Name);
+            }
+
+            if (queryType == "Id")
+            {
+                Sensor sensor = database.Sensors.AsQueryable().FirstOrDefault(x => x.Id == new Guid(query));
+
+                return Content(sensor.Name);
+            }
+
+            return null;
+        }
+        public class AllowCrossSiteJsonAttribute : ActionFilterAttribute
+        {
+            public override void OnActionExecuting(ActionExecutingContext filterContext)
+            {
+                filterContext.RequestContext.HttpContext.Response.AddHeader("Access-Control-Allow-Origin", "*");
+                base.OnActionExecuting(filterContext);
+            }
         }
 
-        // GET api/mssql/5
-        public string Get(int id)
+        [AllowCrossSiteJson]
+        public ActionResult GetSensorData(string sensorType, string sensorId, string startTime, string endTime)
         {
-            return "value";
+
+            var database = new SensorDataLinqToSQLDataContext();
+
+            BsonArray result = new BsonArray();
+
+            if (sensorType == "Temperature")
+            {
+                List<TemperatureData> temperatureDatas = database.TemperatureDatas
+                    .AsQueryable()
+                    .Where(x => x.SensorId == new Guid(sensorId))
+                    .Where(x => (x.Timestamp - new DateTime(1970, 1, 1)).TotalSeconds > int.Parse(startTime))
+                    .Where(x => (x.Timestamp - new DateTime(1970, 1, 1)).TotalSeconds < int.Parse(endTime))
+                    .OrderBy(o => o.Timestamp)
+                    .ToList();
+
+                foreach (var temperatureData in temperatureDatas)
+                {
+                    BsonDocument document = new BsonDocument
+                    { 
+                    {"Timestamp", (temperatureData.Timestamp - new DateTime(1970, 1, 1)).TotalSeconds},
+                    {"Value", temperatureData.Value.ToString()}
+                    };
+                    result.Add(document);
+                }
+
+            }
+            if (sensorType == "Humidity")
+            {
+                List<HumidityData> humidityDatas = database.HumidityDatas.AsQueryable().Where(x => x.SensorId == new Guid(sensorId)).ToList();
+            }
+
+            return Content(result.ToJson(), "application/json");
+        }
+  
+        public ActionResult Test()
+        {
+            return null;
         }
 
-        //public void 
 
-        // POST api/mssql
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/mssql/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/mssql/5
-        public void Delete(int id)
-        {
-        }
     }
 }

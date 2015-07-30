@@ -6,11 +6,12 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/bundles/bootstrap-css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
 </head>
 <body>
     @RenderBody()
 
-    @Scripts.Render("~/bundles/jquery")
+
     @Scripts.Render("~/bundles/bootstrap-js")
     @RenderSection("scripts", required: false)
 </body>

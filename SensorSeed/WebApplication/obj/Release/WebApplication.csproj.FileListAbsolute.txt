@@ -52,3 +52,10 @@ C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\Content\images\home\configure.png
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\Content\images\home\display.png
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\Content\Site.css
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\MongoDB.Bson.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\MongoDB.Driver.Core.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\MongoDB.Driver.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\MongoDB.Bson.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\MongoDB.Driver.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\Content\lib\d3\d3.js
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication\bin\Content\lib\d3\d3.min.js

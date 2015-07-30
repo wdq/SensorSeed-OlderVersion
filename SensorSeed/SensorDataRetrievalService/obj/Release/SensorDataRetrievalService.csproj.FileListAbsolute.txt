@@ -19,3 +19,12 @@ C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrieva
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\System.Linq.Dynamic.dll
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Release\SensorDataRetrievalService.exe.manifest
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\obj\Release\SensorDataRetrievalService.application
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\Newtonsoft.Json.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\System.Web.Cors.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\System.Web.Http.Cors.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\System.Web.Http.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\Newtonsoft.Json.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\System.Web.Http.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\SensorDataRetrievalService\bin\Release\System.Web.Http.Cors.xml

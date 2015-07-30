@@ -43,3 +43,15 @@ C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tes
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\Content\lib\bootstrap\fonts\glyphicons-halflings-regular.ttf
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\Content\lib\bootstrap\fonts\glyphicons-halflings-regular.woff
 C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\Content\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\MongoDB.Bson.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\MongoDB.Bson.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\System.Web.Http.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\System.Web.Http.WebHost.dll
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\System.Web.Http.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\System.Web.Http.WebHost.xml
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\Content\lib\d3\d3.js
+C:\Users\wquade\Documents\Projects\Home\sensorseed\SensorSeed\WebApplication.Tests\bin\Release\Content\lib\d3\d3.min.js

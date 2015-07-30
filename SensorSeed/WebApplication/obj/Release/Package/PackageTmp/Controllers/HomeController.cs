@@ -16,6 +16,11 @@ namespace WebApplication.Controllers
             return View();
         }
 
+        public ActionResult ChartTest()
+        {
+            return View();
+        }
+
         //
         // GET: /Home/Details/5
         /*
